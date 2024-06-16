@@ -1,0 +1,336 @@
+/* General Styling*/
+/* *{
+  padding-right: 0;
+  margin-right: 0;
+} */
+body {
+  font-family: "Montserrat", sans-serif;
+  min-width: 200px;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+  background-color: #fafafa;
+}
+
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+.nav-wrapper ul li a {
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+.model{
+  font-size: 0.85em;
+}
+
+/* Section one */
+
+.links-wrapper ul {
+  list-style: none;
+}
+
+.links-wrapper ul li a:hover {
+  text-decoration: none;
+ color: #000;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  padding-left: 8px;
+  content: "\f105";
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.product-title {
+  font-size: 40px;
+}
+.brife-description{
+  font-size: 25px;
+}
+.main-highlight-wrapper{
+  background-color:#fafafa;
+}
+
+
+/* Second section */
+.second-hightlight-wrapper{
+background-image: url("../images/home/iphone11-pro-bg.jpg");
+height: 580px;
+background-position: center;
+background-repeat: no-repeat;
+color: #fff;
+background-size: cover;
+
+}
+
+.description-wrapper{
+font-size: 20px;
+font-weight: 500;
+}
+.price-wrapper{
+  font-size: .85em;
+  color: #86868b;
+}
+
+/* 3rd section */
+
+.third-highlight-wrapper{
+  background-image: url("../images/home/iphone11-bg.jpg");
+          height:580px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+     
+}
+.litle-wraper{
+font-size: 40px;
+}
+
+
+/* 4th section  */
+.left-side-wrapper{
+  background-image: url(../images/home/watch-series-5.jpg);
+  height:580px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .description-wraper {
+  max-width: 430px;
+} */
+
+.right-side-wrapper {
+  background-image: url(../images/home/apple-card.jpg);
+  height:580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+/* .description-wraper {
+  max-width: 430px;
+} */
+
+/* 5th section  */
+.fifth-heghlight-wrapper{
+
+  background: #fff;
+}
+.fifth-heghlight-wrapper .left-side-wrapper{
+        background-image: url("../images/home/apple-tv-background.jpg");
+}
+
+
+.watch-more-wrapeer a {
+        text-decoration: none;
+        font-size: 0.85em;
+}
+.watch-more-wrapper-2 a:after {
+font-family: "FontAwesome";
+/* font-weight: 900; */
+  content: "\f144";
+  padding-left: 10px;
+}
+
+.fifth-heghlight-wrapper .right-side-wrapper{
+        background-image: url("../images/home/air-pods.jpg");
+        color:#fff;
+        background-size: initial;
+        background-color: #000;
+        background-position: bottom;
+}
+.logo-wrapper{
+    font-size: 40px;
+}
+.tvshow-logo-wraper{
+      padding: 170px 0 200px;
+}
+.watch-more-wrapeer a {
+        text-decoration: none;
+        font-size: 0.85em;
+}
+.watch-more-wrapeer a:after {
+font-family: "FontAwesome";
+content:"\f144";
+padding-left: 15px;
+} 
+ 
+
+.fifth-heghlight-wrapper .description-wrapper{
+   color: #86868b;
+   font-size: 20px;
+}
+
+.sixth-heghlight-wrapper .left-side-wrapper{
+  background-image: url("../images/home/macbook-pro.jpg");
+  height:580px;
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
+  background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+.product-title-small {
+  font-size: 40px;
+}
+
+.sixth-heghlight-wrapper .right-side-wrapper{
+      background-image: url("../images/home/new-ipad.jpg");
+      height:580px;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+
+
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+.upper-text-container a {
+  color: #515154;
+}
+
+
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    position: absolute;
+    right: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+  .main-highlight-wrappe product-title{
+    font-size: 500px;
+    /* text-decoration: none; */
+  }
+  /* .navbar-collapse collapse ul{
+display: flex;
+min-width: 200px;
+  } */
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
